@@ -22,24 +22,29 @@ I included some graphs that I coded in #python. They show how the leverage that 
 
 Lambda Formula:
 
-<img src="https://bit.ly/2XB4AtT" align="center" border="0" alt="\lambda =  \frac{ \frac{dC}{c} }{ \frac{dS}{S} } = \frac{S}{c}* \frac{dC}{dS}  =\frac{S}{c}* \Delta " width="211" height="57" />
+<img src="https://render.githubusercontent.com/render/math?math=\lambda =  \frac{ \frac{dC}{c} }{ \frac{dS}{S} } = \frac{S}{c}* \frac{dC}{dS}  =\frac{S}{c}* \Delta">
 
 
-We want to find  <img src="http://www.sciweavers.org/tex2img.php?eq=%20%5Cfrac%7Bd%20%5Clambda%20%7D%7Bd%20%5Csigma%20%7D%20%2C%20%5Cfrac%7Bd%20%5Clambda%7D%7Bdr%7D%20%2C%5Cfrac%7Bd%20%5Clambda%7D%7Bdt%7D&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0" align="center" border="0" alt=" \frac{d \lambda }{d \sigma } , \frac{d \lambda}{dr} ,\frac{d \lambda}{dt}" width="94" height="43" />
+
+
+We want to find  <img src="https://render.githubusercontent.com/render/math?math=\frac{d \lambda }{d \sigma } , \frac{d \lambda}{dr} ,\frac{d \lambda}{dt}">
+
 
 Chain rule
-<img src="https://bit.ly/2XAvwtZ" align="center" border="0" alt="\frac{d \lambda }{d \sigma } = \frac{d \lambda }{dC  } * \frac{dC}{d \sigma }" width="122" height="43" />
+<img src="https://render.githubusercontent.com/render/math?math=\frac{d \lambda }{d \sigma } = \frac{d \lambda }{dC  } * \frac{dC}{d \sigma }">
 
 
+<img src="https://render.githubusercontent.com/render/math?math=\frac{d \lambda }{dC  } = \frac{S* \Delta }{-c^2}">
 
-<img src="https://bit.ly/3cjHGLK" align="center" border="0" alt="\frac{d \lambda }{dC  } = \frac{S* \Delta }{-c^2}" width="94" height="44" />
+
+<img src="https://render.githubusercontent.com/render/math?math=\frac{dC}{d \sigma } = vega">
 
 
-<img src="https://bit.ly/3ejYV1j" align="center" border="0" alt="\frac{dC}{d \sigma } = vega" width="96" height="43" />
+<img src="https://render.githubusercontent.com/render/math?math=\frac{d \lambda }{d \sigma } = \frac{S* \Delta }{-c^2} * vega">
 
-<img src="http://www.sciweavers.org/tex2img.php?eq=%20%5Cfrac%7Bd%20%5Clambda%20%7D%7Bd%20%5Csigma%20%7D%20%3D%20%5Cfrac%7BS%2A%20%5CDelta%20%7D%7B-c%5E2%7D%20%2A%20vega&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0" align="center" border="0" alt=" \frac{d \lambda }{d \sigma } = \frac{S* \Delta }{-c^2} * vega" width="162" height="44" />
 
-Using chain rule in the same way as outlined above we can compute  <img src="http://www.sciweavers.org/tex2img.php?eq=%5Cfrac%7Bd%20%5Clambda%7D%7Bdr%7D%20%2C%20%5Cfrac%7Bd%20%5Clambda%7D%7Bdt%7D&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0" align="center" border="0" alt="\frac{d \lambda}{dr} , \frac{d \lambda}{dt}" width="61" height="43" />
+Using chain rule in the same way as outlined above we can compute  <img src="https://render.githubusercontent.com/render/math?math=\frac{d \lambda}{dr} , \frac{d \lambda}{dt}">
+
 
 Use explicit formulas for Vega, Rho and Theta in your calculations:
 
